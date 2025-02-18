@@ -1,7 +1,7 @@
 import './MovieCard.scss';
 
 export const MovieCard = ({ movie }) => (
-  <div className="movies" key={movie.imdbId}>
+  <div className="movies">
     <div className="card" data-cy="Movie">
       <div className="card-image">
         <figure className="image is-4by3">
